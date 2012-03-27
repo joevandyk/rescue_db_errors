@@ -5,7 +5,8 @@ module RescueDbError
     class_attribute :error_matchers                                             
     self.error_matchers = []                                                    
   end                                                                           
-                                                                                
+      
+  # Is overriding save like this bad? Better way to do it?                                                                          
   def save *args, &block                                                        
     super                                                                       
   rescue                                                                        
