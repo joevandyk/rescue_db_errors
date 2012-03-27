@@ -1,4 +1,3 @@
-../../shared/models/vanity_coupon_code.rb                                                                                                                                            
 module RescueDbError                                                            
   extend ActiveSupport::Concern                                                 
                                                                                 
